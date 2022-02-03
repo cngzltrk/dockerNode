@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    container_name: c_node
+    build: .
+    command: npm start
+    ports:
+      - 80:80
